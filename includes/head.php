@@ -58,7 +58,7 @@
         <div class="header-lower">
         	<div class="auto-container clearfix">
                 <!--Logo-->
-                <div class="logo"><a href="home"><img src="images/logo-evgt.png" alt="Event Gates" title="Event Gates"></a></div>
+                <div class="logo"><a href="home"><img src="images/logo/logo-evgt.png" alt="Event Gates" title="Event Gates"></a></div>
                 
                 <!--Right Container-->
                 <div class="right-cont clearfix">

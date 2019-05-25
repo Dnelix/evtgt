@@ -31,7 +31,7 @@
                         
                         <!--Form Box-->
                         <div class="form-box col-md-6 col-sm-12 col-xs-12  pull-right">
-                            <form method="post" action="http://uxart.io/downloads/bulldozer-html/all-templates/event/index.html">
+                            <form method="post" action="#">
                                 <div class="form-group">
                                     <input type="email" name="email" value="" placeholder="Enter Email" required>
                                     <button type="submit"><span class="icon fa fa-paper-plane"></span></button>
@@ -48,10 +48,10 @@
             
             	<!--Footer Widget-->
                 <article class="footer-widget about-widget col-md-3 col-sm-6 col-xs-12 wow fadeInUp" data-wow-delay="0ms" data-wow-duration="1000ms">
-                	<h3><img src="images/footer-text-logo.png" alt=""></h3>
+                	<h3><img src="images/logo/footer-text-logo.png" alt=""></h3>
                     <div class="widget-content">
-                    	<p>There are many variations of passages of Lorem Ipsum available, but the majority have suffered alteration in.</p>
-                        <p>some form There are many variations of passages of Lorem Ipsum available, but the</p>
+                    	<p>Post your events, send out bulk invitations, create and sell tickets, tell people what you would like as gift...</p>
+                        <p>EventGates provides an all-round solution to your event planning challenges</p>
                     </div>
                 </article>
                 
