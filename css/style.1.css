@@ -26,10 +26,10 @@
 #ec6e6e
 **********************************************/
 
-/*
+
 @import url(http://fonts.googleapis.com/css?family=Raleway:400,300,500,600,700,800);
 @import url(http://fonts.googleapis.com/css?family=Hind:400,300,500,600,700);
-*/
+
 @import url('font-awesome.css');
 @import url('flaticon.css');
 @import url('animate.css');
@@ -1618,7 +1618,7 @@ ul,li{
 	margin-bottom:50px;
 }
 
-.service-tabs .tab-content .featured-box .box-inner{
+ .box-inner{
 	position:relative;
 	max-width:400px;
 	margin:0 auto;	
@@ -1628,7 +1628,7 @@ ul,li{
 	max-width:550px;
 }
 
-.service-tabs .tab-content .featured-box .box-inner *{
+ .box-inner *{
 	transition:all 700ms ease;
 	-moz-transition:all 700ms ease;
 	-webkit-transition:all 700ms ease;
@@ -1636,14 +1636,14 @@ ul,li{
 	-o-transition:all 700ms ease;
 }
 
-.service-tabs .tab-content .featured-box .box-inner .image{
+ .box-inner .image{
 	position:relative;
 	overflow:hidden;
 	width:100%;
 	z-index:1;
 }
 
-.service-tabs .tab-content .featured-box .box-inner .image::after{
+ .box-inner .image::after{
 	content:'';
 	position:absolute;
 	left:-100%;
@@ -1661,17 +1661,17 @@ ul,li{
 	-o-transition:all 700ms ease;
 }
 
-.service-tabs .tab-content .featured-box:hover .box-inner .image::after{
+:hover .box-inner .image::after{
 	left:0%;	
 }
 
-.service-tabs .tab-content .featured-box .box-inner .image img{
+ .box-inner .image img{
 	position:relative;
 	display:block;
 	width:100%;	
 }
 
-.service-tabs .tab-content .featured-box .box-inner .image .curve{
+ .box-inner .image .curve{
 	position:absolute;
 	right:-100px;
 	top:100%;
@@ -1686,7 +1686,7 @@ ul,li{
 	-o-transform:rotate(-13deg);	
 }
 
-.service-tabs .tab-content .featured-box .box-inner:hover .image .curve{
+ .box-inner:hover .image .curve{
 	transform:rotate(0deg);
 	-webkit-transform:rotate(0deg);
 	-moz-transform:rotate(0deg);
@@ -1694,10 +1694,10 @@ ul,li{
 	-o-transform:rotate(0deg);
 }
 
-.service-tabs .tab-content .featured-box .box-inner .content{
+ .box-inner .content{
 	position:relative;
 	top:0px;
-	margin:-44px 30px 0px;
+	/* margin:-44px 30px 0px; */
 	z-index:2;
 }
 
@@ -1709,11 +1709,11 @@ ul,li{
 	margin-top:-44px;	
 }
 
-.service-tabs .tab-content .featured-box .box-inner:hover .content{
+ .box-inner:hover .content{
 	top:46px;	
 }
 
-.service-tabs .tab-content .featured-box .box-inner .content:before{
+ .box-inner .content:before{
 	position:absolute;
     right: 0px;
     top: -36px;
@@ -1744,17 +1744,17 @@ ul,li{
 	top:-36px;	
 }
 
-.service-tabs .tab-content .featured-box .box-inner:hover .content:before,
-.service-tabs .tab-content .featured-box .box-inner:hover .content .inner-box{
+ .box-inner:hover .content:before,
+ .box-inner:hover .content .inner-box{
 	border-color:#ce0707;	
 }
 
-.service-tabs .tab-content .featured-box .box-inner .content .inner-box{
+ .box-inner .content .inner-box{
 	position:relative;
 	background:#ffffff;
 	border:1px solid #f1f1f1;
 	border-top:none;
-	padding:20px 30px 30px;
+	padding:10px 10px 10px;
 	z-index:5;	
 }
 
@@ -1797,7 +1797,7 @@ ul,li{
 	color:#6e6e6e;
 }
 
-.service-tabs .tab-content .featured-box .box-inner .content .social{
+ .box-inner .content .social{
 	position:relative;	
 }
 

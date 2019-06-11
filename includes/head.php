@@ -1,13 +1,20 @@
+<?php require('includes/dynamic.php'); ?>
+
 <!DOCTYPE html>
 <html>
 <head>
 <meta charset="utf-8">
-<title>Event Gates || Your best ally for every Event</title>
+<title><?= $pagetitle; ?></title>
 <!-- Stylesheets -->
 <link href="css/bootstrap.css" rel="stylesheet">
 <link href="css/revolution-slider.css" rel="stylesheet">
 <link href="css/owl.css" rel="stylesheet">
 <link href="css/style.css" rel="stylesheet">
+<!-- SEO -->
+<meta name="title" content="<?=$metatitle;?>">
+<meta name="description" content="<?=$metadesc;?>">
+<meta name="keywords" content="<?=$pgz;?>, Event, Gates, eventgate, bulksms, IV, invitations, plan, planner, manager">
+<meta name="copyright" content="&copy;2019 - Dnelix Enterprise">
 <!-- Responsive -->
 <meta http-equiv="X-UA-Compatible" content="IE=edge">
 <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=0">
@@ -80,12 +87,12 @@
                         
                         <div class="navbar-collapse collapse clearfix">                                                                                              
                             <ul class="nav navbar-nav navbar-right">
-                                <li class="current"><a href="home">Home</a></li>
-                                <li class=""><a href="events">Events</a></li>
-                                <li><a href="about">About</a></li>
-                                <li><a href="#">Blog</a></li>
-                                <li><a href="contact">Contact Us</a></li>
-                                <li class="dropdown current"><a href="account/">Login to Account</a>
+                                <li class="<?= $pgz=='home' ? 'current':''; ?>"><a href="home">Home</a></li>
+                                <li class="<?= $pgz=='events' ? 'current':''; ?>"><a href="events">Events</a></li>
+                                <li class="<?= $pgz=='about' ? 'current':''; ?>"><a href="about">About</a></li>
+                                <li class="<?= $pgz=='blog' ? 'current':''; ?>"><a href="#">Blog</a></li>
+                                <li class="<?= $pgz=='contact' ? 'current':''; ?>"><a href="contact">Contact Us</a></li>
+                                <li class="dropdown current"><a href="backstage/">Login to Account</a>
                                     <!--ul class="submenu">
                                         <li><a href="services.html">Style One</a></li>
                                         <li><a href="services-2.html">Style Two</a></li>

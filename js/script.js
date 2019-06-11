@@ -141,6 +141,33 @@
 	}
 	
 	
+	//Event Slider
+	if ($('.event-area .event-slider').length) {
+		$('.event-area .event-slider').owlCarousel({
+			loop:true,
+			margin:50,
+			nav:true,
+			autoplay: 5000,
+			responsive:{
+				0:{
+					items:1
+				},
+				600:{
+					items:2
+				},
+				800:{
+					items:3
+				},
+				1000:{
+					items:4
+				},
+				1400:{
+					items:4
+				}
+			}
+		});    		
+	}
+	
 	//News Slider
 	if ($('.news-area .news-slider').length) {
 		$('.news-area .news-slider').owlCarousel({

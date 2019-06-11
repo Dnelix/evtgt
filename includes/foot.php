@@ -47,21 +47,20 @@
             <div class="footer-widget-area clearfix">
             
             	<!--Footer Widget-->
-                <article class="footer-widget about-widget col-md-3 col-sm-6 col-xs-12 wow fadeInUp" data-wow-delay="0ms" data-wow-duration="1000ms">
+                <article class="footer-widget about-widget col-md-4 col-sm-6 col-xs-12 wow fadeInUp" data-wow-delay="0ms" data-wow-duration="1000ms">
                 	<h3><img src="images/logo/footer-text-logo.png" alt=""></h3>
-                    <div class="widget-content">
-                    	<p>Post your events, send out bulk invitations, create and sell tickets, tell people what you would like as gift...</p>
-                        <p>EventGates provides an all-round solution to your event planning challenges</p>
+                    <div class="widget-content" style="text-align:justify">
+                    	<p>Post your events, send out bulk invitations, create and sell tickets, tell people what you would like as gift ...</p>
+                        <p>EventGates provides an all-round solution to your event planning challenges.</p>
                     </div>
                 </article>
                 
                 <!--Footer Widget-->
-                <article class="footer-widget quick-links col-md-3 col-sm-6 col-xs-12 wow fadeInUp" data-wow-delay="300ms" data-wow-duration="1000ms">
+                <article class="footer-widget quick-links col-md-4 col-sm-6 col-xs-12 wow fadeInUp" data-wow-delay="300ms" data-wow-duration="1000ms">
                 	<h3>Quick Links</h3>
                     <div class="widget-content">
                     	<ul>
                             <li><span class="fa fa-angle-right"></span> <a href="#">FAQ</a></li>
-                            <li><span class="fa fa-angle-right"></span> <a href="#">Support</a></li>
                             <li><span class="fa fa-angle-right"></span> <a href="#">Sitemap</a></li>
                             <li><span class="fa fa-angle-right"></span> <a href="#">Blog</a></li>
                             <li><span class="fa fa-angle-right"></span> <a href="#">Community</a></li>
@@ -70,20 +69,20 @@
                 </article>
                 
                 <!--Footer Widget-->
-                <article class="footer-widget address col-md-3 col-sm-6 col-xs-12 wow fadeInUp" data-wow-delay="600ms" data-wow-duration="1000ms">
+                <article class="footer-widget address col-md-4 col-sm-6 col-xs-12 wow fadeInUp" data-wow-delay="600ms" data-wow-duration="1000ms">
                 	<h3>Address</h3>
                     <div class="widget-content">
                     	<ul class="info">
-                        	<li><span class="fa fa-map-marker"></span> &ensp; 60 Grant Ave. Carteret NJ 0708</li>
-                            <li><span class="fa fa-phone"></span> &ensp; (732) 803-01 03, (732) 806-01 04</li>
-                            <li><span class="fa fa-envelope"></span> &ensp; <a href="mailto:info@companyname.com">info@companyname.com</a></li>
+                        	<li><span class="fa fa-map-marker"></span> &ensp; Multipurpose Complex, UNN</li>
+                            <li><span class="fa fa-phone"></span> &ensp; (+234) 81-6537-0642</li>
+                            <li><span class="fa fa-envelope"></span> &ensp; <a href="mailto:info@eventgates.ng">info@eventgates.ng</a></li>
                         </ul>
                         
                         <div class="social"><a class="img-circle fa fa-facebook-f" href="#"></a> <a class="img-circle fa fa-twitter" href="#"></a> <a class="img-circle fa fa-google-plus" href="#"></a> <a class="img-circle fa fa-linkedin" href="#"></a></div>
                     </div>
                 </article>
                 
-                <!--Footer Widget-->
+                <!--Footer Widget--
                 <article class="footer-widget latest-work col-md-3 col-sm-6 col-xs-12 wow fadeInUp" data-wow-delay="900ms" data-wow-duration="1000ms">
                 	<h3>Latest Work</h3>
                     <div class="widget-content">
@@ -96,7 +95,7 @@
                             <figure class="image"><a class="lightbox-image" href="images/resource/insta-feed2.jpg"><img src="images/resource/insta-feed2.jpg" alt=""></a></figure>
                         </div>
                     </div>
-                </article>
+                </article-->
                 
             </div>
         </div>

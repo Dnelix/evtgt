@@ -32,7 +32,7 @@
 	}
 	
 	.main-header.style-two .header-lower .logo{
-		background:#60d1d8;
+		background:#ce0707;
 		width:auto;
 		margin:-20px -15px 10px;
 		padding:15px;
@@ -62,7 +62,7 @@
 		width:32px;
 		height:32px;
 		line-height:32px;
-		border:1px solid #60d1d8;
+		border:1px solid #ce0707;
 		border-radius:5px 5px 5px 5px;
 		-webkit-border-radius:5px 5px 5px 5px;
 		-ms-border-radius:5px 5px 5px 5px;
@@ -92,7 +92,7 @@
 	   max-height:none;
 		overflow:hidden;
 		padding:0px;
-		border:1px solid #10bcf4;
+		border:1px solid #990707;
 		margin:10px 0px;
 		width:100%;
 		border-radius:3px;
@@ -128,12 +128,12 @@
 	.main-menu .navbar-header .navbar-toggle{
 		display:block;
 		z-index:7;
-		border:1px solid #60d1d8;
+		border:1px solid #ce0707;
 		margin:0px 0px 0px 0px;
 	}
 	
 	.main-menu .navbar-header .navbar-toggle .icon-bar{
-		background:#60d1d8;	
+		background:#ce0707;	
 	}
 	
 	.main-header .main-menu .navbar-nav{
@@ -191,7 +191,7 @@
 		
 	.main-header .main-menu .navbar-nav > li > ul,
 	.main-header .main-menu .navbar-nav > li > ul > li > ul{
-		border-top:1px solid #60d1d8 !important;	
+		border-top:1px solid #ce0707 !important;	
 	}
 	
 	.main-header .main-menu .navbar-nav > li,
@@ -210,13 +210,13 @@
 		padding:9px 10px;
 		line-height:22px;
 		color:#ffffff;
-		background:#60d1d8;
+		background:#ce0707;
 	}
 	
 	.main-header .main-menu .navbar-nav > li > a:hover,
 	.main-header .main-menu .navbar-nav > li > a:active,
 	.main-header .main-menu .navbar-nav > li > a:focus{
-		background:#60d1d8;
+		background:#ce0707;
 	}
 	
 	.main-header .main-menu .navbar-nav > li:hover > ul{

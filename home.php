@@ -401,8 +401,7 @@
         </div>
     </section>
     
-    
-    
+
     <!--News Area-->
     <section class="news-area">
     	<div class="auto-container">
@@ -412,7 +411,7 @@
             </div>
                 
             <div class="sec-text wow fadeInUp" data-wow-delay="300ms" data-wow-duration="1000ms">
-                <p>Here are some events that might be happening soon around you.</p>
+                <p>Here are some events that might be happening soon around you. </p>
             </div>
             
             <!--News Slider-->
@@ -420,7 +419,7 @@
             
             	<!--Slide Item-->
                 <article class="slide-item">
-                	<figure class="image"><img src="images/resource/featured-image-3.jpg" alt=""></figure>
+                	<figure class="image"><img src="images/resource/image-3.jpg" alt=""></figure>
                     <div class="content-box">
                     	<div class="text-content">
                         	<h3><a href="#">Event Heading</a></h3>
@@ -433,7 +432,7 @@
                 
             	<!--Slide Item-->
                 <article class="slide-item">
-                	<figure class="image"><img src="images/resource/featured-image-3.jpg" alt=""></figure>
+                	<figure class="image"><img src="images/resource/image-3.jpg" alt=""></figure>
                     <div class="content-box">
                     	<div class="text-content">
                         	<h3><a href="#">Event Heading</a></h3>
@@ -446,7 +445,7 @@
                 
             	<!--Slide Item-->
                 <article class="slide-item">
-                	<figure class="image"><img src="images/resource/featured-image-3.jpg" alt=""></figure>
+                	<figure class="image"><img src="images/resource/image-3.jpg" alt=""></figure>
                     <div class="content-box">
                     	<div class="text-content">
                         	<h3><a href="#">Event Heading</a></h3>
@@ -459,7 +458,7 @@
                 
             	<!--Slide Item-->
                 <article class="slide-item">
-                	<figure class="image"><img src="images/resource/featured-image-3.jpg" alt=""></figure>
+                	<figure class="image"><img src="images/resource/image-3.jpg" alt=""></figure>
                     <div class="content-box">
                     	<div class="text-content">
                         	<h3><a href="#">Event Heading</a></h3>
@@ -469,8 +468,8 @@
                         </div>
                     </div>
                 </article>
-                
             </div>
+            <p><a class="primary-btn hvr-bounce-to-left" href="events"><span class="btn-text" style="color:#fff">SEE ALL UPCOMING EVENTS</span><strong class="icon"><span class="f-icon flaticon-right11"></span></strong></a></p>
             
         </div>
     </section>
