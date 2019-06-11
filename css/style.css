@@ -1832,12 +1832,6 @@ event-slider .box-inner {
 	max-width:420px;
 	margin:0 auto;
 }
-event-slider .box-inner:hover {
-
-}
-event-slider .content{
-
-}
 event-slider .inner-box{
 	position:relative;
 	background:#ffffff;
