@@ -24,7 +24,7 @@
             <div class="row">
                 <div class="col-xl-6 col-lg-6 col-md-6 col-sm-6">
                     <div class="logo">
-                        <a href="index.html"><img src="../assets/images/logo.png" alt=""></a>
+                        <a href="../"><img src="../assets/images/logo.png" alt=""></a>
                     </div>
 
                     <span class="nav-control">

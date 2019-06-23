@@ -1,3 +1,4 @@
+
     <div class="page-title">
         <div class="container">
             <div class="row">
@@ -23,10 +24,10 @@
             <div class="row justify-content-between">
                 <div class="col-xl-12">
                     <div class="row">
-                        <div class="col-xl-3 inside">
+                        <div class="col-xl-3 col-sm-4 col-md-3 inside">
                             <div class="card event-card" style="background-image:url(../assets/images/thumb/tickx.png); background-repeat:no-repeat; background-size:100% 100%;">
                                 <div class="event-card-img">
-                                    <img class="img-fluid" src="../assets/images/events/event-main2.jpg" alt="placeholder image" data-toggle="modal" data-target="#event-view">
+                                    <img class="img-fluid" src="../assets/images/events/event-main2.jpg" alt="001">
                                     <h4 style="border:1px solid #fff; text-shadow:5px 5px 5px #ccc; background-color:#000">001</h4>
                                 </div>
                                 <div class="card-footer" style="text-align:center; text-transform:uppercase;">
@@ -34,7 +35,8 @@
                                 </div>
                                 <div class="card-body" style="text-align:center">
                                     <div class="row">
-                                        <div class="col-md-12"><h5 style="color:#E53632">Entry</h5><p style="color:#E53632">Strictly on IV</p></div>
+                                        <div class="col-md-6" style="color:#E53632; padding:0px 10px; text-align:right; border-right:1px solid #000"><p style="color:#E53632">ENTRY<br/>Strictly on IV</p></div>
+                                        <div class="col-md-6" style="color:#E53632; padding:0px 10px; text-align:left; border-left:1px solid #000"><p>STANDARD TICKET</p></div>
                                     </div>
                                 </div>
                                 <div class="card-sponsor" style="text-align:center">
@@ -59,10 +61,8 @@
                                   </h4>
                                 </div>
                                 <div id="collapse1" class="panel-collapse collapse in">
-                                  <div class="panel-body">Lorem ipsum dolor sit amet, consectetur adipisicing elit,
-                                  sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad
-                                  minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea
-                                  commodo consequat.</div>
+                                  <div class="panel-body">Request a unique ticket design. This service will cost a one-time fee of 500 EG_units.<br/>
+                                  <a href="#" class="btn btn-success">PROCEED</a></div>
                                 </div>
                               </div>
                               <div class="panel panel-default">
@@ -87,11 +87,13 @@
                                   </h4>
                                 </div>
                                 <div id="collapse3" class="panel-collapse collapse">
-                                  <div class="panel-body">Number of tickets to generate: &nbsp;
+                                  <div class="panel-body">Number of tickets to generate: 
                                     <form action="?stage=ticketGenerator" method="post">
-                                    <input type="range" value="50" min="10" max="100" id="rng" name="rng" onChange="updateTextInput('rng','plc')"/> &nbsp;
-                                    <span id="plc"></span><br/>
-                                    <input type="submit" class="btn btn-success" value="GENERATE"/>
+                                      <div class="form-group row" style="margin-left:2px">
+                                        <input type="number" class="form-control col-md-3" name="numTik" id="numTik"/> &nbsp;
+                                        <input type="submit" class="btn btn-success" value="GENERATE"/>
+                                        <span id="plc"></span>
+                                      </div>
                                     </form>
                                   </div>
                                 </div>

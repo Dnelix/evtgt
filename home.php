@@ -7,7 +7,7 @@
     	<div class="auto-container clearfix">
         	
             <!--Column-->
-        	<div class="column col-md-3 col-sm-4 col-xs-6 odd wow fadeIn hvr-bounce-to-right" data-wow-delay="0s" data-wow-duration="0s">
+        	<div class="column col-md-4 col-sm-4 col-xs-6 odd wow fadeIn hvr-bounce-to-right" data-wow-delay="0s" data-wow-duration="0s">
             	<div class="content bg">
                 	<div class="count-text" data-speed="500" data-stop="01"></div>
                     <span>Signup for Account</span>
@@ -15,28 +15,28 @@
             </div>
             
             <!--Column-->
-            <div class="column col-md-3 col-sm-4 col-xs-6 odd wow fadeIn hvr-bounce-to-right" data-wow-delay="0s" data-wow-duration="0s">
+            <div class="column col-md-4 col-sm-4 col-xs-6 odd wow fadeIn hvr-bounce-to-right" data-wow-delay="0s" data-wow-duration="0s">
             	<div class="content bg-1">
                 	<div class="count-text" data-speed="500" data-stop="02"></div>
-                    <span>Create an Event</span>
+                    <span>Post an Event</span>
                 </div>
             </div>
             
-            <!--Column-->
-            <div class="column col-md-3 col-sm-4 col-xs-6 odd wow fadeIn hvr-bounce-to-right" data-wow-delay="0s" data-wow-duration="0s">
+            <!--Column--
+            <div class="column col-md-4 col-sm-4 col-xs-6 odd wow fadeIn hvr-bounce-to-right" data-wow-delay="0s" data-wow-duration="0s">
             	<div class="content bg-2">
                 	<div class="count-text" data-speed="500" data-stop="03"></div>
                     <span>Publish Event</span>
                 </div>
-            </div>
+            </div-->
             
             <!--Column-->
-            <div class="column col-md-3 col-sm-4 col-xs-6 odd wow fadeIn hvr-bounce-to-right" data-wow-delay="0s" data-wow-duration="0s">
+            <div class="column col-md-4 col-sm-4 col-xs-6 odd wow fadeIn hvr-bounce-to-right" data-wow-delay="0s" data-wow-duration="0s">
             	<div class="content bg-3">
-                	<div class="count-text" data-speed="1000" data-stop="04"></div>
-                    <span>Monitor Progress</span>
+                	<div class="count-text" data-speed="1000" data-stop="03"></div>
+                    <span>Manage/Monitor Progress</span>
                 </div>
-            </div>
+            </div-->
             
         </div>
     </section>
@@ -380,7 +380,7 @@
         </div>
     </section>
     
-    <!--We Are Best-->
+    <!--Featured-->
     <section class="we-are-best">
     	<div class="auto-container">
         	<div class="row clearfix">
@@ -413,64 +413,97 @@
             <div class="sec-text wow fadeInUp" data-wow-delay="300ms" data-wow-duration="1000ms">
                 <p>Here are some events that might be happening soon around you. </p>
             </div>
+            <div class="event-area">
+                    <!--News Slider-->
+                    <div class="event-slider">
+                        <article class="slide-item">
+                            <div class="box-inner">
+                                <figure><img class="img-responsive" src="images/resource/post-image-2.jpg" alt=""></figure>
+                                <div class="content">
+                                    <div class="inner-box">
+                                        <h3>DERMATOLOGIST</h3>
+                                        <div class="text">There are many variations of passages of Lorem Ipsum available . . .</div>
+                                        <div class="link"><a href="#" class="read_more">Read More</a></div>
+                                    </div>
+                                </div>
+                            </div>
+                        </article>
+                        
+                        <article class="slide-item">
+                            <div class="box-inner">
+                                <figure><img class="img-responsive" src="images/resource/post-image-2.jpg" alt=""></figure>
+                                <div class="content">
+                                    <div class="inner-box">
+                                        <h3>DERMATOLOGIST</h3>
+                                        <div class="text">There are many variations of passages of Lorem Ipsum available . . .</div>
+                                        <div class="link"><a href="#" class="read_more">Read More</a></div>
+                                    </div>
+                                </div>
+                            </div>
+                        </article>
+                        <article class="slide-item">
+                            <div class="box-inner">
+                                <figure><img class="img-responsive" src="images/resource/post-image-2.jpg" alt=""></figure>
+                                <div class="content">
+                                    <div class="inner-box">
+                                        <h3>DERMATOLOGIST</h3>
+                                        <div class="text">There are many variations of passages of Lorem Ipsum available . . .</div>
+                                        <div class="link"><a href="#" class="read_more">Read More</a></div>
+                                    </div>
+                                </div>
+                            </div>
+                        </article>
+                        <article class="slide-item">
+                            <div class="box-inner">
+                                <figure><img class="img-responsive" src="images/resource/post-image-2.jpg" alt=""></figure>
+                                <div class="content">
+                                    <div class="inner-box">
+                                        <h3>DERMATOLOGIST</h3>
+                                        <div class="text">There are many variations of passages of Lorem Ipsum available . . .</div>
+                                        <div class="link"><a href="#" class="read_more">Read More</a></div>
+                                    </div>
+                                </div>
+                            </div>
+                        </article>
+                        <article class="slide-item">
+                            <div class="box-inner">
+                                <figure><img class="img-responsive" src="images/resource/post-image-2.jpg" alt=""></figure>
+                                <div class="content">
+                                    <div class="inner-box">
+                                        <h3>DERMATOLOGIST</h3>
+                                        <div class="text">There are many variations of passages of Lorem Ipsum available . . .</div>
+                                        <div class="link"><a href="#" class="read_more">Read More</a></div>
+                                    </div>
+                                </div>
+                            </div>
+                        </article>
+
+                    </div>
+                </div>
             
-            <!--News Slider-->
-            <div class="news-slider">
-            
-            	<!--Slide Item-->
-                <article class="slide-item">
-                	<figure class="image"><img src="images/resource/image-3.jpg" alt=""></figure>
-                    <div class="content-box">
-                    	<div class="text-content">
-                        	<h3><a href="#">Event Heading</a></h3>
-                            <div class="info">By <em><a href="#">Admin</a></em> at Feb 14, 2015</div>
-                            <div class="text">There are many variations of passages of Lorem Ipsum available . . .</div>
-                            <div class="link-btn"><a class="primary-btn hvr-bounce-to-left"><span class="btn-text">LEARN MORE</span> <strong class="icon"><span class="f-icon flaticon-right11"></span></strong></a></div>
-                        </div>
-                    </div>
-                </article>
-                
-            	<!--Slide Item-->
-                <article class="slide-item">
-                	<figure class="image"><img src="images/resource/image-3.jpg" alt=""></figure>
-                    <div class="content-box">
-                    	<div class="text-content">
-                        	<h3><a href="#">Event Heading</a></h3>
-                            <div class="info">By <em><a href="#">Admin</a></em> at Feb 14, 2015</div>
-                            <div class="text">There are many variations of passages of Lorem Ipsum available . . .</div>
-                            <div class="link-btn"><a class="primary-btn hvr-bounce-to-left"><span class="btn-text">LEARN MORE</span> <strong class="icon"><span class="f-icon flaticon-right11"></span></strong></a></div>
-                        </div>
-                    </div>
-                </article>
-                
-            	<!--Slide Item-->
-                <article class="slide-item">
-                	<figure class="image"><img src="images/resource/image-3.jpg" alt=""></figure>
-                    <div class="content-box">
-                    	<div class="text-content">
-                        	<h3><a href="#">Event Heading</a></h3>
-                            <div class="info">By <em><a href="#">Admin</a></em> at Feb 14, 2015</div>
-                            <div class="text">There are many variations of passages of Lorem Ipsum available . . .</div>
-                            <div class="link-btn"><a class="primary-btn hvr-bounce-to-left"><span class="btn-text">LEARN MORE</span> <strong class="icon"><span class="f-icon flaticon-right11"></span></strong></a></div>
-                        </div>
-                    </div>
-                </article>
-                
-            	<!--Slide Item-->
-                <article class="slide-item">
-                	<figure class="image"><img src="images/resource/image-3.jpg" alt=""></figure>
-                    <div class="content-box">
-                    	<div class="text-content">
-                        	<h3><a href="#">Event Heading</a></h3>
-                            <div class="info">By <em><a href="#">Admin</a></em> at Feb 14, 2015</div>
-                            <div class="text">There are many variations of passages of Lorem Ipsum available . . .</div>
-                            <div class="link-btn"><a class="primary-btn hvr-bounce-to-left"><span class="btn-text">LEARN MORE</span> <strong class="icon"><span class="f-icon flaticon-right11"></span></strong></a></div>
-                        </div>
-                    </div>
-                </article>
-            </div>
             <p><a class="primary-btn hvr-bounce-to-left" href="events"><span class="btn-text" style="color:#fff">SEE ALL UPCOMING EVENTS</span><strong class="icon"><span class="f-icon flaticon-right11"></span></strong></a></p>
             
+        </div>
+    </section>
+
+    <!--Mobile App-->
+    <section class="we-are-best">
+    	<div class="auto-container">
+        	<div class="row clearfix">
+            	
+                <div class="col-md-6 col-sm-6 col-xs-12 image-side">
+                	<figure class="image"><img class="img-responsive" src="images/resource/about-us-image-1.jpg" alt="" title=""></figure>
+                </div>
+                
+                <div class="col-md-6 col-sm-6 col-xs-12 text-side">
+                	<h2 class="wow fadeInRight" data-wow-delay="0ms" data-wow-duration="1000ms">Download the <span>EventGate</span> App!</h2>
+                    <div class="text wow fadeInRight" data-wow-delay="300ms" data-wow-duration="1000ms">
+                    	<p>We are mobile too! Get instant access to all your events and monitor ticket sales and events progress in realtime.</p>
+                    </div>
+                    <div class="link-btn wow fadeInRight" data-wow-delay="600ms" data-wow-duration="1000ms"><a class="primary-btn light hvr-bounce-to-left" href="#"><span class="btn-text">Click to Download</span> <strong class="icon"><span class="f-icon flaticon-new100"></span></strong></a></div>
+                </div>
+                
+            </div>
         </div>
     </section>
     

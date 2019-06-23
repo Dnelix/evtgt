@@ -115,7 +115,7 @@ _('msg').onkeyup = function () {
   _('chars').innerHTML = "Characters left: " + curChar + ". ("+totalChar+" Chars - "+pgs+" Page Message)";
 };
 
-// ("emails").onkeyup = function () {
+// _("emails").onkeyup = function () {
 // 	restrict("emails");
 // 	counter("emails","cnt");
 // };
@@ -123,6 +123,12 @@ _('msg').onkeyup = function () {
 function updateTextInput(val,plc) {
 	_(plc).innerHTML = _(val).value;
 }
+//--------------------------------------------------------------------------------------------
+
+	/*_('tik').click(function(){
+		$(this).css("zoom":"0.5");
+		$(this).print();
+	});*/
 //--------------------------------------------------------------------------------------------
 function getRandomInt(min, max) {
     min = Math.ceil(min);
